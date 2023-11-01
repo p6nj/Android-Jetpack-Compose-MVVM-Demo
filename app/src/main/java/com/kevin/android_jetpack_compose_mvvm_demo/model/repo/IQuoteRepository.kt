@@ -5,4 +5,6 @@ import retrofit2.Response
 
 interface IQuoteRepository {
     suspend fun getRandomQuotation(): Response<AnimeQuotation>
+
+    suspend fun getMultipleQuotations(): Response<List<AnimeQuotation>>
 }

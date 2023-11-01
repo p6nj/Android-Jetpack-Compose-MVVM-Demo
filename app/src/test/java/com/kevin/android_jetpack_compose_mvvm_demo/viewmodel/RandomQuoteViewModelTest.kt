@@ -1,0 +1,4 @@
+package com.kevin.android_jetpack_compose_mvvm_demo.viewmodel
+
+
+class RandomQuoteViewModelTest

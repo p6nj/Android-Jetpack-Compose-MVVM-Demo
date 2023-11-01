@@ -9,4 +9,9 @@ interface QuoteApiService {
 
     @GET("api/random")
     suspend fun getRandomQuotation(): Response<AnimeQuotation>
+
+    @GET("api/quotes")
+    suspend fun getMultipleQuotations(): Response<List<AnimeQuotation>>
+
+
 }
