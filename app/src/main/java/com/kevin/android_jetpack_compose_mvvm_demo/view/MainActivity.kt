@@ -35,8 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
 import com.kevin.android_jetpack_compose_mvvm_demo.ui.theme.AndroidJetpackComposeMVVMDemoTheme
-import com.kevin.android_jetpack_compose_mvvm_demo.viewmodel.RandomQuoteViewModel
-import com.kevin.androidmvvmdemo.model.data.AnimeQuotation
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
